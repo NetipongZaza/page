@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Profile</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -12,14 +12,21 @@
     background-color: #f2f2f2;
   }
 
-  h1 {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2 {
     text-align: center;
     color: #333;
-    margin-top: 50px;
   }
 
   h2 {
-    color: #666;
     margin-top: 20px;
   }
 
@@ -39,6 +46,9 @@
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
   }
 
   button:hover {
@@ -47,41 +57,22 @@
 </style>
 </head>
 <body>
-  <h1>Profile</h1>
-  <h2>
-    <b>
-      <u>
-        Name:
-      </u>
-    </b>
-  </h2>
-  <p>
-    Netipong Intanon
-  </p>
-  <h2>
-    <b>
-      <u>
-        Phone number:
-      </u>
-    </b>
-  </h2>
-  <p>
-    +66123456789
-  </p>
-  <h2>
-    <b>
-      <u>
-        Social:
-      </u>
-    </b>
-  </h2>
-  <p>Facebook:</p>
-  <a href="https://www.facebook.com/profile.php?id=100090826585276&locale=th_TH" target="_blank" rel="noopener noreferrer">
-    <button type="button">Click</button>
-  </a>
-  <p>GitHub:</p>
-  <a href="https://github.com/NetipongZaza" target="_blank" rel="noopener noreferrer">
-    <button type="button">Click</button>
-  </a>
+  <div class="container">
+    <h1>Profile</h1>
+    <h2><u>Name:</u></h2>
+    <p>Netipong Intanon</p>
+    <h2><u>Phone number:</u></h2>
+    <p>+66123456789</p>
+    <h2><u>Social:</u></h2>
+    <p>Facebook:</p>
+    <a href="https://www.facebook.com/profile.php?id=100090826585276&locale=th_TH" target="_blank" rel="noopener noreferrer">
+      <button type="button">Visit Profile</button>
+    </a>
+    <p>GitHub:</p>
+    <a href="https://github.com/NetipongZaza" target="_blank" rel="noopener noreferrer">
+      <button type="button">Visit Profile</button>
+    </a>
+    <!-- Add more information and social media links here -->
+  </div>
 </body>
 </html>
