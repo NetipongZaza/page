@@ -19,10 +19,10 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
   }
 
   h1, h2 {
-    text-align: center;
     color: #333;
   }
 
@@ -47,12 +47,18 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    display: block;
-    margin: 0 auto;
   }
 
   button:hover {
     background-color: #0056b3;
+  }
+
+  /* Style the image */
+  img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-top: 20px;
   }
 </style>
 </head>
@@ -72,8 +78,9 @@
     <a href="https://github.com/NetipongZaza" target="_blank" rel="noopener noreferrer">
       <button type="button">Visit Profile</button>
     </a>
+    <!-- Image section moved inside the container -->
+    <h2>My pic</h2>
+    <img src="doop.png" alt="Netipong Intanon's Profile Picture">
   </div>
-  <h2>MY pic</h2>
-  <img src="doop.png" alt="Example Image">
 </body>
 </html>
