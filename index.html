@@ -14,7 +14,7 @@
 
   .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -22,21 +22,30 @@
     text-align: center; /* Center align content */
   }
 
-  h1, h2 {
+  h1 {
     color: #333;
+    margin-bottom: 20px;
   }
 
   h2 {
-    margin-top: 20px;
+    color: #007bff;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 
   p {
+    color: #555;
     margin: 5px 0;
   }
 
   a {
-    text-decoration: none;
     color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #0056b3;
   }
 
   button {
@@ -47,6 +56,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    transition: background-color 0.3s ease;
   }
 
   button:hover {
@@ -58,7 +68,8 @@
     max-width: 100%; /* Ensure the image doesn't exceed its container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 </style>
 </head>
