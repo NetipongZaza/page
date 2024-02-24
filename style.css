@@ -1,0 +1,76 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url("img/backgrounnd.avif");
+    background-position: center;
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 99, 247, 0.966);
+    text-align: center;
+}
+
+/* Headings */
+.head {
+    color: #000; /* Changed to black for better readability */
+    margin-bottom: 15px;
+}
+
+.head1 {
+    text-align: left; /* Adjusted alignment for better readability */
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+/* Text Alignment */
+.text {
+    text-align: justify; /* Adjusted alignment for better readability */
+}
+
+/* Sticky Header */
+h1#containerM {
+    position: sticky;
+    top: 0;
+}
